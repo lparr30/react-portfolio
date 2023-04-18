@@ -6,14 +6,24 @@ import {useState} from "react";
 
 function Content(props) { 
     let viewComponent
-    if(props.view === "about-me"){
-        viewComponent = <About />
+    // if(props.view === "about-me"){
+    //     viewComponent = <About />
+    // } else if(props.view === "portfolio"){
+    //     viewComponent = <Portfolio />
+    // } else if(props.view === "contact"){
+    //     viewComponent = <Contact />
+    // } else if(props.view === "resume"){
+    //     viewComponent = <Resume />
+    // }
+
+    if(props.view === "resume"){
+        viewComponent = <Resume />
     } else if(props.view === "portfolio"){
         viewComponent = <Portfolio />
     } else if(props.view === "contact"){
         viewComponent = <Contact />
-    } else if(props.view === "resume"){
-        viewComponent = <Resume />
+    } else {
+        viewComponent = <About />
     }
 
     return (

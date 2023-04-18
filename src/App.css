@@ -2,3 +2,15 @@
   text-align: center;
 }
 
+.picture {
+  height: 300px;
+  width: auto;
+}
+
+header {
+  background-color: rgb(195, 58, 28);
+}
+
+footer {
+  background-color: rgb(195, 58, 28);
+}
