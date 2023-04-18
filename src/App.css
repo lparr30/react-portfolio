@@ -7,6 +7,14 @@
   width: auto;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
 header {
   background-color: rgb(195, 58, 28);
 }
